@@ -18,12 +18,12 @@ public class TestCalculator {
 	 }
  
 	 @After
-	 #public void tearDown() throws Exception {
+	 public void tearDown() throws Exception {
 		 calc = null;
 	 }
 	 
 	 @Test
-	 #public void testAdd() {
+	 public void testAdd() {
 		  double result = calc.add(10,20);
 		  org.junit.Assert.assertEquals(30, result, 0);
 	 }
